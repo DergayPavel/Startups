@@ -1,0 +1,25 @@
+@font-face {
+    font-family: Circular Std;  
+    src: url(./fonts/circular-std-medium-500.ttf); 
+} 
+@font-face {
+    font-family: Roboto;  
+    src: url(https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap); 
+} 
+
+body{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#root{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

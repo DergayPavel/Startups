@@ -1,0 +1,80 @@
+.footerBox{
+    width: 1440px;
+    height: 401px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    color: #FBFBFA;    
+}
+
+.footerBox_conteiner{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+
+}
+
+.footerBox_conteiner-logo{
+    width: 178.88px;
+    height: 42.9px;
+
+    margin-top: 90px;
+    margin-bottom: 85px;
+}
+
+.footerBox_conteiner-comment{
+    width: 156px;
+    height: 60px;    
+
+    font-family: Circular Std;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+
+    color: #939393;
+}
+
+.footerBox_conteiner-name{
+    font-family: Circular Std;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+
+    color: #3D4F5C;
+    margin-bottom: 19px;
+    margin-top: 104px;
+}
+
+.footerBox_conteiner-text{
+    width: 124px;
+
+    font-family: Circular Std;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: left;
+
+    color: #46B8C8;
+}
+
+.footerBox_conteiner-link{
+    width: 23px;
+    height: 23px;
+
+}
+
+.ImgBox{
+    height: 99px;
+    width: 23px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
