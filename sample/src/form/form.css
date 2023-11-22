@@ -1,16 +1,30 @@
-.formBox{
+.form{
     width: 100%;
+
+    background-color:#FFC351 ;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.formBox{
+    width: 1440px;
     height: 933px;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
 
-    background-color:#FFC351 ;
 }
 
 .formBox-info{
+    position: relative;
+    width: 1440px;
     display: flex;
     flex-direction: column;
+
+    left: 120px;
 
 }
 
@@ -26,6 +40,8 @@
     text-align: left;
 
     color: #FFFFFF;
+
+    margin-bottom: 34px;
 }
 
 .formBox-info_text{
@@ -40,15 +56,14 @@
     text-align: center;
 
     color: #FFFFFF;
+
+    margin-bottom: 24px;
 }
 
 .formBox-info_form{
     width: 512px;
     height: 601px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    
+
     box-shadow: 0px 8px 35px 0px #BBA98E26;
 
     border-radius: 10px;
@@ -56,15 +71,37 @@
     background-color: #F3F3F3;
 }
 
+form{
+    
+    width: 512px;
+    height: 601px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
 .form_name  {
     width: 429px;
     height: 54px;
+
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: start;
+
 
     background: #FFFFFF;
 
     box-shadow: 0px 8px 35px 0px #BBA98E26;
     border-color: #FFFFFF;
     border-radius: 10px;
+    outline: none;
+    margin-bottom: 16px;
 }
 
 
@@ -73,26 +110,49 @@
     width: 429px;
     height: 54px;
 
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: start;
+
+
     background: #FFFFFF;
 
     box-shadow: 0px 8px 35px 0px #BBA98E26;
     border-color: #FFFFFF;
     border-radius: 10px;
+    outline: none;
+    margin-bottom: 16px;
 }
 
 .form_message{
     width: 429px;
     height: 270px;
 
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: start;
+
+
     background: #FFFFFF;
     border-color: #FFFFFF;
     border-radius: 10px;
     box-shadow: 0px 8px 35px 0px #BBA98E26;
+    outline: none;
 }
 
 .form_btn{
     width: 164px;
     height: 18px;
+    padding-top: 13.5px;
+    padding-bottom: 13.5px;
+    padding-left: 39.5px;
+    padding-right: 39.5px;
 
     display: flex;
     flex-direction: column;
@@ -110,11 +170,16 @@
     border: 1px solid #3D4F5C;
     border-radius: 32.5px;
     color: #FBFBFA;
+    margin-top: 34px;
 }
 
 .formBox_img{
+    position: relative;
     width: 667.43px;
     height: 544.58px;
     opacity: 0.25px;
+
+    top: 194px;
+    right: 112px;
 
 }
